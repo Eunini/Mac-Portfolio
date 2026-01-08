@@ -56,6 +56,35 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section id="about" className={styles.about}>
+        <div className={styles.aboutContent}>
+          <div className={styles.aboutGrid}>
+            <div className={`${styles.aboutText} animate-fade-in`}>
+              <h2 className="text-gradient">About Me</h2>
+              <p>
+                I am <strong>Abraham Lincoln Macbeth</strong>, a visionary UI Designer and Visual Artist
+                currently honing my craft at the <strong>University of Ibadan</strong>.
+                My work is a fusion of technical precision and artistic intuition.
+              </p>
+              <p>
+                As a student of the prestigious UI, I am deeply influenced by the intersection of
+                traditional visual arts and modern digital interfaces. Whether it's crafting
+                a brand identity, designing a seamless user experience, or editing high-impact
+                motion graphics, my goal is to build the future of design.
+              </p>
+              <div className={styles.skillsTag}>
+                <span>UI/UX</span>
+                <span>Visual Arts</span>
+                <span>Graphic Design</span>
+                <span>Video Editing</span>
+                <span>Motion Graphics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Portfolio Section */}
       <section id="work" className={styles.portfolio}>
         <div className={styles.sectionHeader}>

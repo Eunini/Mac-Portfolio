@@ -223,6 +223,61 @@
   left: 0;
 }
 
+/* About Section */
+.about {
+  padding: 10rem 10%;
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutContent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}
+
+.aboutText h2 {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  margin-bottom: 2rem;
+}
+
+.aboutText p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+  max-width: 800px;
+}
+
+.skillsTag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.skillsTag span {
+  padding: 0.6rem 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: 100px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--transition-smooth);
+}
+
+.skillsTag span:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-5px);
+}
+
 /* Portfolio grid */
 .portfolio {
   padding: 8rem 10% 5rem;
