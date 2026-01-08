@@ -16,6 +16,27 @@ const syncopate = Syncopate({
 export const metadata: Metadata = {
   title: "Lincoln Macbeth | Graphics Designer",
   description: "Creative portfolio of Abraham Lincoln Macbeth, a visionary graphics designer and student at the University of Ibadan.",
+  keywords: ["Graphics Designer", "Abraham Lincoln Macbeth", "University of Ibadan", "UI/UX Designer", "Video Editor", "Portfolio"],
+  authors: [{ name: "Abraham Lincoln Macbeth" }],
+  themeColor: "#050505",
+  viewport: "width=device-width, initial-scale=1",
+  robots: "index, follow",
+  icons: {
+    icon: "/logo.jpeg",
+    apple: "/logo.jpeg",
+  },
+  openGraph: {
+    title: "Lincoln Macbeth | Graphics Designer",
+    description: "Creative portfolio of Abraham Lincoln Macbeth, a visionary graphics designer and student at the University of Ibadan.",
+    images: [
+      {
+        url: "/logo.jpeg",
+        width: 800,
+        height: 600,
+        alt: "Lincoln Macbeth Logo",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

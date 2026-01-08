@@ -15,7 +15,10 @@ export default function Home() {
 
       {/* Nav */}
       <nav className={`${styles.nav} glass`}>
-        <div className={styles.navBrand}>ALM.</div>
+        <div className={styles.navBrand}>
+          <img src="/logo.jpeg" alt="ALM Logo" className={styles.logoImg} />
+          <span>ALM.</span>
+        </div>
         <div className={styles.navLinks}>
           <a href="#work">Work</a>
           <a href="#about">About</a>
@@ -110,11 +113,14 @@ export default function Home() {
       {/* Footer */}
       <footer className={styles.footer}>
         <div className={styles.footerTop}>
-          <div className={styles.footerBrand}>ALM.</div>
+          <div className={styles.footerBrand}>
+            <img src="/logo.jpeg" alt="ALM Logo" className={styles.logoImg} />
+            <span>ALM.</span>
+          </div>
           <div className={styles.socials}>
-            <a href="#">Dribbble</a>
-            <a href="#">Behance</a>
+            <a href="#">LinkedIn</a>
             <a href="#">Instagram</a>
+            <a href="#">WhatsApp</a>
           </div>
         </div>
         <div className={styles.footerBottom}>
