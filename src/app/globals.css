@@ -1,14 +1,14 @@
 :root {
   --background: #050505;
   --foreground: #f5f5f5;
-  --accent: #ff4d00;
-  --accent-secondary: #00e5ff;
+  --accent: #2563eb;
+  --accent-secondary: #60a5fa;
   --surface: rgba(255, 255, 255, 0.05);
   --surface-border: rgba(255, 255, 255, 0.1);
   --glass: rgba(10, 10, 10, 0.7);
   --font-main: var(--font-outfit), sans-serif;
   --font-header: var(--font-syncopate), sans-serif;
-  
+
   --transition-smooth: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -16,7 +16,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  cursor: none; /* We will implement a custom cursor */
+  cursor: none;
+  /* We will implement a custom cursor */
 }
 
 html,
@@ -29,7 +30,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: var(--font-header);
   text-transform: uppercase;
   letter-spacing: -0.02em;
@@ -86,8 +90,15 @@ a {
 
 /* Animations */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .animate-fade-in {
@@ -98,7 +109,9 @@ a {
   * {
     cursor: auto !important;
   }
-  .custom-cursor, .custom-cursor-dot {
+
+  .custom-cursor,
+  .custom-cursor-dot {
     display: none;
   }
 }

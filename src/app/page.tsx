@@ -119,8 +119,8 @@ export default function Home() {
           </div>
           <div className={styles.socials}>
             <a href="#">LinkedIn</a>
-            <a href="#">Instagram</a>
-            <a href="#">WhatsApp</a>
+            <a href="https://www.instagram.com/humanfromearth03?igsh=YnR3YXBnN2lmNWh5" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://wa.me/+2347032239783" target="_blank" rel="noopener noreferrer">WhatsApp</a>
           </div>
         </div>
         <div className={styles.footerBottom}>

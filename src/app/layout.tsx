@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description: "Creative portfolio of Abraham Lincoln Macbeth, a visionary graphics designer and student at the University of Ibadan.",
   keywords: ["Graphics Designer", "Abraham Lincoln Macbeth", "University of Ibadan", "UI/UX Designer", "Video Editor", "Portfolio"],
   authors: [{ name: "Abraham Lincoln Macbeth" }],
-  themeColor: "#050505",
+  themeColor: "#2563eb",
   viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
   icons: {
