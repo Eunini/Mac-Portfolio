@@ -3,7 +3,11 @@
 import { useEffect, useState } from "react";
 import styles from "./TextCycle.module.css";
 
-const roles = ["UI/UX Designer", "Graphics Artist", "Video Editor"];
+const roles = [
+    "UI/UX Designer",
+    "Graphics Artist",
+    <span key="video">Video<br />Editor</span>
+];
 
 export default function TextCycle() {
     const [index, setIndex] = useState(0);

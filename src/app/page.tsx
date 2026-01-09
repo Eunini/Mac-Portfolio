@@ -22,7 +22,6 @@ export default function Home() {
         <div className={styles.navLinks}>
           <a href="#work">Work</a>
           <a href="#about">About</a>
-          <a href="#contact" className={styles.cta}>Contact</a>
         </div>
       </nav>
 
@@ -120,24 +119,37 @@ export default function Home() {
               <p>2024 • User Interface</p>
             </div>
           </div>
+          <div className={`${styles.projectCard} glass`}>
+            <div className={styles.projectImage}>
+              <img src="/poster.png" alt="Art Poster" />
+            </div>
+            <div className={styles.projectInfo}>
+              <h3>Art Poster</h3>
+              <p>2024 • Visual Arts</p>
+            </div>
+          </div>
+          <div className={`${styles.projectCard} glass`}>
+            <div className={styles.projectImage}>
+              <img src="/magazine.png" alt="Editorial Design" />
+            </div>
+            <div className={styles.projectInfo}>
+              <h3>Magazine Layout</h3>
+              <p>2024 • Typography</p>
+            </div>
+          </div>
+          <div className={`${styles.projectCard} glass`}>
+            <div className={styles.projectImage}>
+              <img src="/package.png" alt="Packaging Design" />
+            </div>
+            <div className={styles.projectInfo}>
+              <h3>Luxury Packaging</h3>
+              <p>2025 • Product Design</p>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className={styles.contact}>
-        <div className={styles.contactContent}>
-          <h2 className="text-gradient">Let's Create<br />Something Iconic</h2>
-          <p>Currently accepting new projects and creative collaborations.</p>
-          <form className={styles.form}>
-            <div className={styles.inputGroup}>
-              <input type="text" placeholder="Name" className="glass" />
-              <input type="email" placeholder="Email" className="glass" />
-            </div>
-            <textarea placeholder="Message" className="glass"></textarea>
-            <button type="submit" className={styles.primaryButton}>Send Inquiry</button>
-          </form>
-        </div>
-      </section>
+
 
       {/* Footer */}
       <footer className={styles.footer}>
