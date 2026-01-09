@@ -6,7 +6,7 @@ import styles from "./TextCycle.module.css";
 const roles = [
     "UI/UX Designer",
     "Graphics Artist",
-    <span key="video">Video<br />Editor</span>
+    <span key="video">Video <br className={styles.mobileBreak} />Editor</span>
 ];
 
 export default function TextCycle() {

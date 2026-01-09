@@ -12,3 +12,13 @@
     opacity: 0;
     transform: translateY(-10px);
 }
+
+.mobileBreak {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobileBreak {
+        display: block;
+    }
+}
